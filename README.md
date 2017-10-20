@@ -11,7 +11,9 @@ Before using, make sure you have the latest version of [Singularity](https://sin
 The easiest thing is to pull the container from Singularity Hub where it's already built.
 
 ```
-singularity pull --name latex.simg shub://vsoch/singularity-nbconvert
+singularity pull --name latex.simg shub://vsoch/singularity-nbconvert:latex
+Progress |===================================| 100.0% 
+Done. Container is at: /tmp/singularity/latex.simg
 ```
 
 ### Run 
