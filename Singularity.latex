@@ -12,6 +12,15 @@ fi
 exec /opt/conda/bin/jupyter nbconvert "$@"
 
 
+%help
+To run the container:
+
+    singularity run --to pdf notebook.ipynb
+
+Issues: 
+
+    https://github.com/vsoch/singularity-nbconvert/issues
+
 %environment
 DEBIAN_FRONTEND=noninteractive
 export DEBIAN_FRONTEND
